@@ -26,7 +26,7 @@
         <p class="h3 fw-bold">Question Bank</p>
       </div>
     </div>
-    <div class="container shadow rounded p-3" data-aos="zoom-out-up">
+    <div class="container shadow rounded p-3 my-3" data-aos="zoom-out-up">
       <div class="accordion" id="accordionBeginner">
         <!-- Beginner Questions Start -->
         <div class="accordion-item">
@@ -138,12 +138,32 @@
         <!-- Advanced Questions End -->
       </div>
     </div>
+    <footer>
+      <div class="container-fluid bg-secondary-subtle text-primary-emphasis">
+        <div class="row">
+          <div class="col text-center">
+            &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            Brahamjot Singh. All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script>
+      document.addEventListener("contextmenu", function (e) {
+        e.preventDefault();
+      });
+    </script>
 
     <!-- AOS JavaScript CDN -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
     </script>
+
     <!-- Boostrap JavaScript CDN -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
