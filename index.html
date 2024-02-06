@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WT Question Bank</title>
+
+    <!-- Bootstrap CSS CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+
+    <!-- AOS CDN -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+
+  <body>
+    <div class="container mt-3 p-2">
+      <div class="text-center" data-aos="flip-up">
+        <p class="h2 fw-bold text-primary">Web Technologies</p>
+        <p class="h3 fw-bold">Question Bank</p>
+      </div>
+    </div>
+    <div class="container shadow rounded p-3" data-aos="zoom-out-up">
+      <div class="accordion" id="accordionBeginner">
+        <!-- Beginner Questions Start -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Beginner Questions
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionBeginner"
+          >
+            <div class="accordion-body">
+              <ol>
+                <li>What is HTML?</li>
+                <li>What is the purpose of Web Browser?</li>
+                <li>What is the difference between HTML, XML, and XHTML?</li>
+                <li>What is basic page markup in HTML?</li>
+                <li>What is the purpose of the doctype in HTML?</li>
+                <li>What is the purpose of the meta tag in HTML?</li>
+                <li>What are absolute and relative links?</li>
+                <li>How do you create ordered and unordered lists in HTML?</li>
+                <li>How do you embed images in HTML?</li>
+                <li>How can you control the appearance of an HTML page?</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+        <!-- Beginner Questions End -->
+
+        <!-- Intermediate Questions Start -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expended="false"
+              aria-controls="collapseTwo"
+            >
+              Intermediate Questions
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="accordionBeginner"
+          >
+            <div class="accordion-body">
+              <ul></ul>
+            </div>
+          </div>
+        </div>
+        <!-- Intermediate Questions End -->
+
+        <!-- Advanced Questions Start -->
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              type="button"
+              class="accordion-button collapsed"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expended="false"
+              aria-controls="collapseThree"
+            >
+              Advanced Questions
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="accordionBeginner"
+          >
+            <div class="accordion-body">
+              <ul></ul>
+            </div>
+          </div>
+        </div>
+        <!-- Advanced Questions End -->
+      </div>
+    </div>
+
+    <!-- AOS JavaScript CDN -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <!-- Boostrap JavaScript CDN -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
